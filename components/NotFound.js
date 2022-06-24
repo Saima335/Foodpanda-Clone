@@ -1,0 +1,22 @@
+import React, { useEffect } from 'react';
+import { View, StyleSheet, Text } from 'react-native';
+import AntDesign from 'react-native-vector-icons/AntDesign';
+
+const NotFound = () => {
+  return (
+    <View style={styles.container}>
+      <AntDesign name='frowno' size={90} color='black' />
+      <Text style={{ marginTop: 20, fontSize: 20 }}>Result Not Found</Text>
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    alignItems:'center',
+    opacity:0.5,
+    zIndex:-1,
+  },
+});
+
+export default NotFound;
