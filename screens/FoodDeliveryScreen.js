@@ -75,7 +75,7 @@ function FoodDeliveryScreen({ navigation }) {
             title: title,
           });
         }}
-        style={{ flexDirection: 'row',marginBottom: 5, marginTop: 5,marginLeft:0, backgroundColor:'pink', paddingVertical:20}}>
+        style={{ flexDirection: 'row',marginBottom: 5, marginTop: 5,marginLeft:0, paddingVertical:20}}>
         <View style={{alignItems:'center', }}>
           <Image
             style={{ marginLeft: 30,width: 200, height: 200 }}

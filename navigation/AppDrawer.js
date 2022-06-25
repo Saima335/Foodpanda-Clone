@@ -35,13 +35,14 @@ const AppDrawer = () => {
         name="Main Screen"
         component={MainScreen}
         options={{title: 'HOME',
-        headerStyle: {
-          backgroundColor: 'deeppink',
-        },
-        headerTintColor: 'black',
-        headerTitleStyle: {
-          fontWeight: 'bold',
-        },  }}
+        // headerStyle: {
+        //   backgroundColor: 'deeppink',
+        // },
+        // headerTintColor: 'black',
+        // headerTitleStyle: {
+        //   fontWeight: 'bold',
+        // }, 
+       }}
         />
         {/* <Drawer.Screen
           name="Stack Screen"

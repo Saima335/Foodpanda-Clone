@@ -36,13 +36,13 @@ const AdminDrawer = () => {
                 component={AdminScreen}
                 options={{
                     title: 'ADMIN',
-                    headerStyle: {
-                        backgroundColor: 'deeppink',
-                      },
-                      headerTintColor: 'black',
-                      headerTitleStyle: {
-                        fontWeight: 'bold',
-                      }, 
+                    // headerStyle: {
+                    //     backgroundColor: 'deeppink',
+                    //   },
+                    //   headerTintColor: 'black',
+                    //   headerTitleStyle: {
+                    //     fontWeight: 'bold',
+                    //   }, 
                 }}
             />
 
